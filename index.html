@@ -6,49 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/1f82d9d6d9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/laptops.css">
-    <link rel="stylesheet" href="css/tablets.css">
-    <link rel="stylesheet" href="css/mobiles.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 
 <body>
     <div class="container">
         <!-- HEADER -->
         <header>
-            <div class="header_text">
-                <a href="index.html" class="header_logo_link">
-                    <img src="images/header-logo.svg" alt="header logo" class="header_logo">
-                </a>
+            <img src="images/burger.svg" alt="" class="burger_menu">
+            <a href="index.html" class="header_logo_link">
+                <img src="images/header-logo.svg" alt="header logo" class="header_logo">
                 <h2 class="header_h2">Travel Day.com</h2>
+            </a>
+            <div class="nav_and_user">
+                <nav>
+                    <ul class="header_ul">
+                        <li><a href="" class="header_nav_link">Home</a></li>
+                        <li><a href="" class="header_nav_link">Discover</a></li>
+                        <li><a href="" class="header_nav_link">Photo</a></li>
+                        <li><a href="" class="header_nav_link">Contact</a></li>
+                    </ul>
+                </nav>
+                <i class="fa-solid fa-circle-user"></i>
             </div>
-            <nav>
-                <ul class="header_ul">
-                    <li><a href="" class="header_nav_link">Home</a></li>
-                    <li><a href="" class="header_nav_link">Discover</a></li>
-                    <li><a href="" class="header_nav_link">Photo</a></li>
-                    <li><a href="" class="header_nav_link">Contact</a></li>
-                </ul>
-            </nav>
-            <img src="images/user-icon.svg" alt="user icon" class="header_user_logo">
         </header>
 
-        <!-- SECTION -->
+        <!-- SECTION 1-->
         <section class="section1">
-            <div class="cover_text">
-                <h2 class="section1_h2">TRAVEL NEWS</h2>
-                <p class="section1_p">Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis
-                    in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum. Quisque varius sit elit placerat
-                    nulla ullamcorper eget. Lobortis semper nec augue sed aliquam. In eget mattis dui arcu mauris
-                    blandit. Elementum neque magna vestibulum amet sagittis vel.</p>
-            </div>
+            <h2 class="section1_h2">TRAVEL NEWS</h2>
+            <p class="section1_p">Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis
+                in. Ac lorem cras laoreet proin suscipit tempor nibh fermentum. Quisque varius sit elit placerat
+                nulla ullamcorper eget. Lobortis semper nec augue sed aliquam. In eget mattis dui arcu mauris
+                blandit. Elementum neque magna vestibulum amet sagittis vel.</p>
         </section>
 
+        <!-- SECTION 2 -->
         <section class="section2">
             <h2 class="section2_h2">DISCOVERY</h2>
             <div class="section2_articles">
                 <article class="article1 section2_article">
-                    <img src="images/discovery1.png" alt="">
+                    <img src="images/discovery1.png" alt="" class="article_img">
                     <div class="section2_article_text">
                         <h3 class="section2_articles_h3">Lorem ipsum dolor</h3>
                         <p class="section2_articles_p">sit amet consectetur. Lectus diam turpis proin suscipit tempor
@@ -56,7 +56,7 @@
                     </div>
                 </article>
                 <article class="article2 section2_article">
-                    <img src="images/discovery2.png" alt="">
+                    <img src="images/discovery2.png" alt="" class="article_img">
                     <div class="section2_article_text">
                         <h3 class="section2_articles_h3">Lorem ipsum dolor</h3>
                         <p class="section2_articles_p">sit amet consectetur. Lectus diam turpis proin suscipit tempor
@@ -65,7 +65,7 @@
                     </div>
                 </article>
                 <article class="article3 section2_article">
-                    <img src="images/discovery3.png" alt="">
+                    <img src="images/discovery3.png" alt="" class="article_img">
                     <div class="section2_article_text">
                         <h3 class="section2_articles_h3">Lorem ipsum dolor</h3>
                         <p class="section2_articles_p">sit amet consectetur. Lectus diam turpis proin suscipit tempor
@@ -80,10 +80,12 @@
         <section class="section3">
             <h2 class="section3_h2">PHOTOGRAPH</h2>
             <div class="section3_images">
-                <img src="images/photograph1.png" alt="" class="section3_img1">
+                <div class="section3_firstImg">
+                    <img src="images/photograph1.png" alt="" class="section3_img">
+                </div>
                 <div class="section3_images_row">
-                    <img src="images/photograph2.png" alt="" class="section3_img2">
-                    <img src="images/photograph3.png" alt="" class="section3_img3">
+                    <img src="images/photograph2.png" alt="" class="section3_img below">
+                    <img src="images/photograph3.png" alt="" class="section3_img below">
                 </div>
             </div>
         </section>
